@@ -1,4 +1,5 @@
-/* A bank evaluates loan applicants based on the following criteria:
+/****************************************************************************************************************************************
+    A bank evaluates loan applicants based on the following criteria:
     1. Credit Score:
         o If the credit score is above 750, the loan is automatically approved.
         o If the credit score is between 650 and 750, additional checks are performed.
@@ -22,7 +23,8 @@
         creditScore = 720;
         income = 55000.0;
         isEmployed = true;
-        debtToIncomeRatio = 35.0; */
+        debtToIncomeRatio = 35.0; 
+****************************************************************************************************************************************/
 
 function loanEvaluation(
   customerName: string,

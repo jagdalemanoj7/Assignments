@@ -1,4 +1,5 @@
-/* Bank Transactions
+/****************************************************************************************************************************************
+Bank Transactions
 Positive value refers Credit and Negative refers Debit Transaction
 Transactions Amount
     1        50000
@@ -15,7 +16,8 @@ Loops and conditional statements
 2. Print the total amount credited and debited in account
 3. Print total amount remaining at the end in Bank Account
 4. If any transaction limit exceeds +/- 10000 then print the message “Suspicious credit/ debit
-Transaction with Amount” and also print total number of suspicious transactions */
+Transaction with Amount” and also print total number of suspicious transactions 
+****************************************************************************************************************************************/
 
 const transactions: number[] = [ 50000, -2000, 3000, -15000, -200, -300, 4000, -3000];
 

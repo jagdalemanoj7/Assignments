@@ -1,4 +1,5 @@
-/* Employee Table 
+/*****************************************************************************************************************************************
+Employee Table 
 S.No    Name           Base      Salary Experience    Year-End Rating 
                                     (years)             (out of 5)
 -----------------------------------------------------------------------
@@ -23,7 +24,7 @@ Values in Map with EmployeeName and HikePercentagevalue and Print them.
 
 Hike = ( Base Salary * variable pay % ) + Bonus + Reward ;
 Hike % = Hike / Base Salary . 
--------------------------------------------------------------------------*/
+****************************************************************************************************************************************/
 
 const empData: Map<string, number[]> = new Map();
 empData.set("Alice Johnson", [75000.0, 5.1, 4.2]);
@@ -40,7 +41,7 @@ for (const key of empData.keys()) {
   const experience = data[1];
   const rating = data[2];
 
-  const hikePercentage = calculateHike(baseSalary, experience, rating)
+  const hikePercentage = calculateHike(baseSalary!, experience!, rating!)
 
   hikeMap.set(key, hikePercentage)
 }
